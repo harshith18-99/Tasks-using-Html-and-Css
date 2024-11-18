@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height:13vh;
+    background-color: #960c11;
+    display: flex;
+}
+
+#nav_one{
+  flex-basis: 15%;
+  display: grid;
+  place-items: center;
+}
+
+#nav_two{
+   flex-basis: 65%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+#nav_two a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: cursive;
+}
+
+#nav_three{
+   flex-basis: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+}
+
+#login{
+   color: white;
+   background-color: #960c11;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border: 1px solid white;
+}
+
+#signup{
+   color: #960c11;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+article{
+    height: 87vh;
+    background-image: url(./image6.jpg);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#one{
+    flex-basis: 20%;
+}
+
+#two{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    /* flex-direction: column; */
+}
+
+#three{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+article h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    /* text-indent: 300px; */
+    padding-top: 100px;
+    padding-bottom: 40px;
+ }
+
+ #img1{
+    display: flex;
+    flex-direction: column;
+ }
+
+ #img2{
+    display: flex;
+    flex-direction: column;
+ }
+
+ #img3{
+    display: flex;
+    flex-direction: column;
+ }
+
+ #img4{
+    display: flex;
+    flex-direction: column;
+ }
+
+ #two button{
+    background-color: #960c11;
+    padding: 10px;
+    color: white;
+ }
+
+ input{
+    padding: 10px;
+    width: 45vw;
+ }
+
+ #three button{
+    padding: 10px;
+    background-color: #960c11;
+    color: white;
+  }
